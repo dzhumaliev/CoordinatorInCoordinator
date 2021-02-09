@@ -1,0 +1,216 @@
+<resources>
+        <string name="app_name">CoordinatorInCoordinator</string>
+
+
+        <string name="slide_title_description_1">Заказывать стало в 2 раза проще!</string>
+        <string name="slide_title_description_2">Доставка в любое место и в любое время  </string>
+        <string name="slide_title_description_3">Лучшие рестораны в городе в нашем приложении </string>
+
+        <string name="slide_description_1">Доставляем блюда из сотен заведений на выбор! Скидки. Наличный и безналичный расчет.</string>
+        <string name="slide_description_2">Доставляем блюда из сотен заведений на выбор! Скидки. Наличный и безналичный расчет.</string>
+        <string name="slide_description_3">Доставляем блюда из сотен заведений на выбор! Скидки. Наличный и безналичный расчет.</string>
+
+        <string name="slide_skip">Продолжить</string>
+
+        <string name="restaurant">Заведения</string>
+        <string name="stock">Акция</string>
+        <string name="search">Поиск</string>
+        <string name="profile">Кабинет</string>
+
+        <string name="loading_message">Загрузка...</string>
+
+        <string name="error_network">Ошибка сети</string>
+        <string name="error_no_internet">Проверьте подключение к интернету</string>
+        <string name="error_client">Ошибка 401</string>
+        <string name="error_server">Ошибка сервера</string>
+        <string name="error_not_found">Не найдено страница</string>
+        <string name="error_big_file">Слишком большой размер файла</string>
+
+        <string name="fill_in_the_field">Заполните поле</string>
+
+        //Titles
+        <string name="title_registration">Регистрация</string>
+        <string name="title_person">Личные данные</string>
+        <string name="title_my_orders">Мои заказы</string>
+        <string name="title_favorites">Избранное</string>
+        <string name="title_ordering">Оформление заказа</string>
+        <string name="cart">Корзина</string>
+        <string name="out_cabinet">Выйти из аккаунта</string>
+
+        //Alert
+        <string name="out">"Вы действительно хотите выйти с аккаунта"</string>
+        <string name="outClean">"Корзина будет полностью очищена"</string>
+        <string name="out_btn_positive">"Выйти"</string>
+        <string name="out_btn_negative">"Отмена"</string>
+        <string name="successfully_phone">"Ваш номер успешно потвержден"</string>
+        <string name="btn_successfully_phone">"Хорошо"</string>
+
+        <string name="confirm_delete_dish">"Вы действительно хотите удалить блюдо?"</string>
+        <string name="repercussion_delete_dish">"при удалении блюда оно навсегда пропадет из вашей корзины"</string>
+        <string name="btn_yes">Да</string>
+        <string name="btn_no">Нет</string>
+
+        <string name="specify_the_amount_of_payment">Укажите сумму оплаты</string>
+        <string name="delivery_of_the_courier">Чтобы курьер имел при себе сдачу</string>
+        <string name="skip">Пропустить</string>
+        <string name="enter_the_amount">Введите сумму</string>
+
+        //Cabinet
+
+        //Profile
+        <string name="birthday">Дата рождения</string>
+        <string name="mail">Электронный адрес</string>
+        <string name="btn_edit">Редактировать</string>
+        <string name="btn_save">Сохранить</string>
+        <string name="mask_hint_phone">+ 996 (xxx) xxx xxx</string>
+        <string name="registration_hint_name">Введите имя</string>
+        <string name="registration_hint_phone">Нажмите для смены номера</string>
+        <string name="registration_hint_birthday">dd.mm.yyyy</string>
+        <string name="registration_hint_street">Введите улицу</string>
+        <string name="registration_hint_home">номер дома</string>
+        <string name="registration_hint_floor">Введите этаж</string>
+        <string name="registration_hint_apartment">номер квартиры</string>
+        <string name="registration_hint_entrance">Необязательно</string>
+
+        <string name="registration_hint_mail">BillGates@gmail.com</string>
+        <string name="text_term"><u>Принимаю условия конфиденциальности и политику безопасности</u></string>
+        <string name="google_maps_key">AIzaSyAMieSXPEt87fuFuxtQDtAvo8bNTmcKVJQ</string>
+        <string name="enter_phone_number">Введите корректный номер телефона</string>
+        <string name="confirm">Подтвердить</string>
+
+
+        //favorites
+        <string name="dishes">Блюда</string>
+        <string name="restaurants">Рестораны</string>
+
+        //favorites
+        <string-array name="tab_items">
+            <item>Блюда</item>
+            <item>Рестораны</item>
+        </string-array>
+
+        //search
+        <string name="field_search">Искать на ообафуд</string>
+        <string name="search_in_app">Поиск в Ooba food</string>
+        <string name="search_description_empty_page">Найдите лучшие рестораны и вкуснейшие блюда в нашем приложении</string>
+        //other
+        <string name="field_empty">Поле не должен быть пустым</string>
+        <string name="quantity">шт</string>
+        <string name="total_sum">Сумма</string>
+        <string name="date_order">Дата заказа:</string>
+
+        //Toolbars
+        <string name="toolbar_edit_phone">Смена номера</string>
+        <string name="clean">Очистить</string>
+        <string name="canceled">Отмена</string>
+
+        //Auth and Edit Phone
+        <string name="title_edit_phone">Введите новый номер</string>
+        <string name="cancel_edit_phone">Отменить смену номера</string>
+
+        <string name="title_code_confirmation">Код подтверждения</string>
+        <string name="description_code_confirmation">Код для смены номера был отправлен на номер</string>
+        <string name="sms_did_not_come">Не пришло SMS сообщение?</string>
+        <string name="tv_desc_code">Код был отправлен на номер</string>
+
+        //Buttons
+        <string name="btn_next">Далее</string>
+        <string name="sent_code">Отправить код</string>
+        <string name="again_sent_code">Отправить снова</string>
+        <string name="btn_go">Перейти</string>
+        <string name="btn_close">Закрыть</string>
+        <string name="btn_to_general">На главную</string>
+
+        //Errors
+        <string name="error_auth">Ошибка авторизации</string>
+        <string name="restaurant_no_working">Извените ресторан сейчас не работает!</string>
+        <string name="check_field">заполните обязательные поля!</string>
+        <string name="select_pay_method">выберите способ оплаты</string>
+        <string name="error_edit">Ошибка изменения</string>
+        <string name="agreement_with_the_terms">потвердите согласие с условиями конфиденциальности!"</string>
+
+        //Category List
+        <string name="title_category">Категории</string>
+        <string name="all_kitchen">Все кухни</string>
+        resources.getString(R.string.all_kitchen)
+
+        //Restaurant Detail
+        //Tabs
+        <string name="tab_menu">Меню</string>
+        <string name="tab_stock">Акции и Скидки</string>
+        <string name="tab_about_restaurant">О заведении</string>
+        <string name="schedule">Время работы</string>
+        <string name="average_check">Средний чек</string>
+        <string name="title_address">Адрес</string>
+
+        //Restaurant list
+        <string name="restaurant_list_title">Заведение</string>
+        //Susses Order
+        <string name="payment_successful">Оплата прошла успешно! Наш оператор свяжется с вами!</string>
+        //About service
+        <string name="about_service">О сервисе</string>
+        //Dishes Favorite
+        <string name="favorite_empty">Здесь будут храниться ваши избранные блюда</string>
+        <string name="favorite_empty_resr">Здесь будут храниться ваши избранные заведения</string>
+        //MyOrdersDetail
+        <string name="floor">этаж</string>
+        <string name="flat">кабинет</string>
+        <string name="phone_number">Номер телефона</string>
+        <string name="delivery_address">Адрес доставки:</string>
+        <string name="delivery">Доставка</string>
+        <string name="order_again">Заказать снова</string>
+        //MyOrdersList
+        <string name="order_processed">Заказ обрабатывается</string>
+        <string name="order_cancel">Заказ отмене</string>
+        <string name="order_completed">Заказ доставле</string>
+
+        //Auth
+        <string name="auth_title">Авторизация</string>
+        <string name="auth_description">Для того что использовать наше приложение вам нужно авторизоваться по номеру телефона</string>
+        <string name="confirmation_code">Код подтверждения</string>
+        <string name="incorrect_phone_number">Неверный номер?</string>
+        <string name="code">Код</string>
+        <string name="receive_an_sms_message">Не пришло SMS сообщение?</string>
+        <string name="sent_again">Отправить снова</string>
+
+        //Cart
+        <string name="cart_description">Ваша корзина пуста Но наши повара ждут вашего заказа!</string>
+        <string name="view_restaurant">Посмотреть рестораны</string>
+        <string name="product_added_in_cart">Товар добавлен в корзину</string>
+        <string name="product_deleted_in_cart">Товар удален из корзины</string>
+        //CartDetail
+        <string name="all_dish">Все блюда:</string>
+        <string name="container">Посуда:</string>
+        <string name="total">Итого:</string>
+        <string name="excluding_delivery">*Без учета доставки</string>
+        <string name="to_order">Оформить заказ</string>
+        //Not_network
+        <string name="no_internet">Нет подключения к интернету</string>
+        <string name="again_network">Повторить</string>
+
+        //Ordering
+        <string name="name">Имя*</string>
+        <string name="name_">Имя</string>
+        <string name="street">Улица*</string>
+        <string name="home">Дом*</string>
+        <string name="apartment">Квартира</string>
+        <string name="entrance">Подьезд</string>
+        <string name="comments">Коментарии</string>
+        <string name="total_payment">Итого к оплате</string>
+        <string name="payment">Оплата</string>
+        <string name="pay_cash">Наличными</string>
+        <string name="pay_no_cash">Оплата</string>
+        <string name="pay_elsom">счет Элсом</string>
+        <string name="som"> сом</string>
+        <string name="add_address">Добавить адрес</string>
+
+        //Stock
+        <string name="stock_empty">Здесь пока пусто, но мы в поисках выгодных предложений</string>
+
+        //General page
+        <string name="enter_text">Введите текст...</string>
+        <string name="establishments">Заведения Бишкека</string>
+        <string name="view_all">Показать все</string>
+
+
+</resources>
